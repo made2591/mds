@@ -6,7 +6,6 @@ __Availability Zone__: it is a set of 1 or more discrete data centers, with redu
 __Edge Locations__: endpoints used to caching content;
 
 #### Services - An overview
-
 ##### Compute
 __EC2__: virtual or physical dedicated machine;
 __ECS__: docker container service;
@@ -92,12 +91,61 @@ __QuickSight__: is a business intelligent tool;
 __Data Pipeline__: to move your data from your env to AWS;
 __Glue__: is used to do what you can do with an ETL, so ingest data but first transform;
 
+##### Security Identity & Compliance
+__IAM__: Identity Access Management;
+__Cognito__: device authentication, mobile, facebook, gmail, linkedin, etc and get temporary access to temporary resource (for instance save to DynamoDB);
+__GuardDuty__: AWS monitors activity;
+__Inspector__: installed in EC2 and get info on security over your machine, for instance;
+__Macie__: scan history buckets and look for things, address, password, numbers, etc;
+__Certificate Manager__: SSL for free and managing certificate;
+__CloudHSM__: hardware security modules used to store your case and access EC2 instances, etc;
+__Directory Service__: integrate Active Directory services (Microsoft Services) to your VPC;
+__WAF__: web application firewall for high level firewall like cross site scripting, sql injection and looking ad application layer to cover malicous stuff;
+__Shield__: is abled by default in several services including CloudFront, Load Balancer, Route53, is to prevent DDOS attacks (the advanced version let AWS pay for you the cost of DDOS if you have a lot of DDOS);
+__Artifact__: good for audit and compliance, you can download things control, payment, reports, inspecting, etc;
 
+##### Mobile Services
+__Mobile Hub__: is a console to setup AWS services for you, use sdk to connect mobile app to AWS services;
+__Pintpoint__: targeted push notification, for instance to drive people throught mobile to discounted restaurant;
+__AWS AppSync__: web and mobile and offline use syncronization;
+__Device Farm__: testing your apps on real devices;
+__Mobile Analytics__: analytics for mobiles;
 
+##### AR / VR
+__Sumerian__: 3D application;
 
+##### Application Integration
+__Step Functions__: managing lambda function and link them togheter;
+__Amazon MQ__: don't know;
+__SNS__: notification service (billing alarm);
+__SQS__: decoupling your infrastructure, the oldest, 2006;
+__SWF__: used in Amazon Retail Warehouse to create workflow when you build your application;
 
+##### Customer Engagement
+__Connect__: contact center as a server (chat, customer);
+__Simple Email Service__: email at scale;
 
+##### Business Productivity
+__Alexa for Business__: use to inform IT to advise IT that printer is broken, or to order for new ink, etc;
+__Chime__: is like google hangout, you can record meetings, work without latency;
+__Work Docs__: dropbox for AWS;
+__Work Mail__: like office 365 in AWS, with function like Google Know;
 
+##### Desktop & App Streaming
+__Workspaces__: run windows linux etc in any device;
+__AppStream 2.0__: similar to Citrix, also only application;
+
+##### Internet Of Things
+__iOT__: service for IOT
+__iOT Device Management__: 
+__Amazon FreeRTOS__: 
+__Greengrass__: software to run machine learning etc on embedded device etc;
+
+##### Game Development
+__GameLift__: develop virtual reality game 
+
+#### Relevant for Solution Architect Associate Exam
+AWS Global Infrastructure, Compute, Storage, Databases, Migration, Networking & Content Delivery, Management Tools, Analytics, Security, Identity & Compliance, Application Integration and Desktop & App Streaming;
 
 
 
